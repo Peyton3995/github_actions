@@ -4,9 +4,9 @@ name: test_pages
 on:
   # Triggers only on pushes and pull_requests
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
   # Able to be run on command
   workflow_dispatch:
